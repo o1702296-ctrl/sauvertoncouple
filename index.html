@@ -1152,6 +1152,12 @@
 
         
         /* Audio Section & Player Widget Styling */
+        
+        .audio-section .section-title {
+            color: #ffffff !important;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
         .audio-grid {
             display: grid;
             grid-template-columns: 1fr 440px;
@@ -1351,7 +1357,13 @@
         }
 
         @media (max-width: 900px) {
-            .audio-grid {
+            
+        .audio-section .section-title {
+            color: #ffffff !important;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .audio-grid {
                 grid-template-columns: 1fr;
                 gap: 35px;
             }
@@ -2741,7 +2753,7 @@
                     <span class="section-tag" style="background: rgba(124, 58, 237, 0.25); color: var(--pink-accent); border: 1px solid var(--purple-glow);">
                         <i class="fa-solid fa-headphones"></i> INCLUS DANS VOTRE ACCÈS
                     </span>
-                    <h2 class="section-title" style="text-align: left; margin: 15px 0 20px;">
+                    <h2 class="section-title" style="text-align: left; margin: 15px 0 20px; color: #ffffff !important;">
                         EN PLUS DU GUIDE ÉCRIT : L'AUDIO COMPLET DU PROGRAMME
                     </h2>
                     <p style="color: #cbd5e1; font-size: 1.1rem; line-height: 1.7; margin-bottom: 25px;">
@@ -2805,7 +2817,7 @@
                     </div>
 
                     <div class="player-controls">
-                        <div class="player-time"><span>04:12</span> <span>3h 45min</span></div>
+                        
                         <div class="player-progress-bar">
                             <div class="player-progress-fill"></div>
                         </div>
